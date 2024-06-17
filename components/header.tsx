@@ -1,3 +1,5 @@
+'use client';
+
 import { Logo } from "@/components/logo";
 import { NavLinks } from "@/components/nav-links";
 import { ThemeSwitch } from "@/components/theme-switch";
