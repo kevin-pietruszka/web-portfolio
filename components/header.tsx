@@ -1,8 +1,8 @@
 'use client';
 
-import { Logo } from "@/components/logo";
-import { NavLinks } from "@/components/nav-links";
-import { ThemeSwitch } from "@/components/theme-switch";
+import { Logo } from "@/components/header/logo";
+import { NavLinks } from "@/components/header/nav-links";
+import { ThemeSwitch } from "@/components/header/theme-switch";
 
 export function Header() {
   return (
