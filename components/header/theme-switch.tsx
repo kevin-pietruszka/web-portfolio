@@ -39,6 +39,6 @@ export function ThemeSwitch() {
       </div>
     </label>
   ) : (
-    <div className="w-14 h-8 rounded-full bg-gray-400 relative transition-all duration-700"></div>
+    <div className="w-14 h-8 rounded-full bg-gray-400 relative"></div>
   );
 }
