@@ -2,11 +2,15 @@ import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
-const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"] });
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-primary",
+});
 
 let author = "Kevin Pietruszka";
 let url = "https://web-portfolio-six-roan.vercel.app/";
-let description = "Software Engineer from Atlanta, GA who recently graduated from the Georgia Institute of Technology."
+let description =
+  "Software Engineer from Atlanta, GA who recently graduated from the Georgia Institute of Technology.";
 
 export const metadata: Metadata = {
   title: `${author} | Portfolio`,
@@ -33,7 +37,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={jetbrainsMono.className}>{children}</body>
+      <body className={`${jetbrainsMono.variable} antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }
