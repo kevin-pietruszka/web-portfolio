@@ -7,5 +7,10 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   plugins: [],
+  theme: {
+    fontFamily: {
+      primary: "var(--font-primary)",
+    },
+  },
 };
 export default config;
