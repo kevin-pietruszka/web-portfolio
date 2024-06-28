@@ -20,7 +20,7 @@ export default function MobileNav() {
       {isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 z-50">
           <div className="fixed right-0 top-0 h-full w-1/2 bg-white">
-            <div className="py-9 px-6 flex justify-between shadow-md">
+            <div className="py-9 px-8 flex justify-between shadow-md">
               <button>
                 <FaSun size={"1.5rem"} />
               </button>
