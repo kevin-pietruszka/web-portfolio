@@ -4,8 +4,8 @@ import { FaSun } from "react-icons/fa6";
 
 export default function DesktopNav() {
   return (
-    <div className="hidden md:flex gap-4 items-center justify-center">
-      <nav className="flex gap-4 items-center justify-center">
+    <div className="hidden md:flex gap-8 items-center justify-center">
+      <nav className="flex gap-8 items-center justify-center">
         {links.map((link, index, array) => {
           return (
             <Link key={index} href={link.href}>
