@@ -7,6 +7,7 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   plugins: [],
+  darkMode: "class",
   theme: {
     colors: {
       background: 'hsl(var(--background) / <alpha-value>)',
