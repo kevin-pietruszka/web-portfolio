@@ -18,9 +18,9 @@ export default function MobileNav() {
       </button>
 
       {isOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-50">
-          <div className="fixed right-0 top-0 h-full w-1/2 bg-white">
-            <div className="py-9 px-6 flex justify-between shadow-md">
+        <div className="fixed inset-0 bg-muted bg-opacity-80 z-50">
+          <div className="fixed right-0 top-0 h-full w-1/2 bg-popover">
+            <div className="py-9 px-8 flex justify-between shadow-md">
               <button>
                 <FaSun size={"1.5rem"} />
               </button>
@@ -28,7 +28,7 @@ export default function MobileNav() {
                 <FaX size={"1.5rem"} />
               </button>
             </div>
-            <nav className="pt-9 flex flex-col gap-4 items-center justify-center">
+            <nav className="pt-9 flex flex-col gap-8 items-center justify-center">
               {links.map((link, index, array) => {
                 return (
                   <Link onClick={toggleNav} key={index} href={link.href}>
