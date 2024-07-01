@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Socials from "@/components/about/Socials";
 import Description from "@/components/about/Description";
 import ProfilePic from "@/components/about/ProfilePic";
