@@ -1,6 +1,6 @@
 import { links } from "@/lib/constants";
 import Link from "next/link";
-import { FaSun } from "react-icons/fa6";
+import ThemeButton from "@/components/ThemeButton";
 
 export default function DesktopNav() {
   return (
@@ -14,9 +14,7 @@ export default function DesktopNav() {
           );
         })}
       </nav>
-      <button>
-        <FaSun size={"1.5rem"} />
-      </button>
+      <ThemeButton />
     </div>
   );
 }
