@@ -1,7 +1,7 @@
 export default function SectionBreak({ header }: { header: string }) {
   return (
-    <div className="flex items-center justify-between gap-4">
-      <h1 className="text-4xl my-8">{header}</h1>
+    <div className="flex items-center justify-between gap-4 mb-8">
+      <h1 className="text-4xl">{header}</h1>
       <div className="h-px bg-foreground w-full"></div>
     </div>
   );
