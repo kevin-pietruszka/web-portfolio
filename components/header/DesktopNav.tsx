@@ -1,6 +1,6 @@
 import { links } from "@/lib/constants";
 import Link from "next/link";
-import { FaSun } from "react-icons/fa6";
+import ThemeButton from "@/components/ThemeButton";
 
 export default function DesktopNav() {
   return (
@@ -8,15 +8,14 @@ export default function DesktopNav() {
       <nav className="flex gap-8 items-center justify-center">
         {links.map((link, index, array) => {
           return (
-            <Link key={index} href={link.href}>
+            <Link key={index} href={link.href} className="relative group hover:text-primary transition-colors duration-200">
               {link.name}
+              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform duration-200 origin-left"></span>
             </Link>
           );
         })}
       </nav>
-      <button>
-        <FaSun size={"1.5rem"} />
-      </button>
+      <ThemeButton />
     </div>
   );
 }

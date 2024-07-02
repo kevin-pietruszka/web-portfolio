@@ -3,6 +3,7 @@ import { links } from "@/lib/constants";
 import Link from "next/link";
 import { useState } from "react";
 import { FaBars, FaSun, FaX } from "react-icons/fa6";
+import ThemeButton from "@/components/ThemeButton";
 
 export default function MobileNav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,9 +22,7 @@ export default function MobileNav() {
         <div className="fixed inset-0 bg-muted bg-opacity-80 z-50">
           <div className="fixed right-0 top-0 h-full w-1/2 bg-popover">
             <div className="py-9 px-8 flex justify-between shadow-md">
-              <button>
-                <FaSun size={"1.5rem"} />
-              </button>
+              <ThemeButton />
               <button onClick={toggleNav}>
                 <FaX size={"1.5rem"} />
               </button>

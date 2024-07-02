@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Socials from "@/components/about/Socials";
 import Description from "@/components/about/Description";
 import ProfilePic from "@/components/about/ProfilePic";
@@ -14,7 +13,7 @@ export default function About() {
               "grid grid-cols-1 sm:grid-cols-4 gap-4 place-content-center place-items-center"
             }
             socialStyles={
-              "inline-flex rounded p-1 gap-1 border-border border-2 items-center justify-center bg-primary text-primary-foreground"
+              "inline-flex rounded p-1 gap-1 border-border border-2 items-center justify-center bg-secondary text-secondary-foreground hover:bg-primary hover:text-primary-foreground"
             }
           />
         </div>
