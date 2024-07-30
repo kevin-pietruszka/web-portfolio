@@ -1,0 +1,412 @@
+[
+  {
+    "name": "Advising Pathways Web Application",
+    "description": "Developed a web application for the College of Computing advising department at Georgia Tech. The application helps students explore curriculum requirements and options through surveys, gamified walkthroughs, and detailed advising information.",
+    "technologies": [
+      "SQL",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "MySQL",
+      "React.js",
+      "Node.js",
+      "Express.js"
+    ],
+    "is_public": true,
+    "github_link": "https://github.com/kevin-pietruszka/AdvisingPathways"
+  },
+  {
+    "name": "Buzz Database",
+    "description": "Developed a multi-threaded, SQL-like database that supports transactions, logging, and query optimization while maintaining ACID properties. Utilized atomic operations to efficiently handle concurrent processes.",
+    "technologies": [
+      "C++"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Command Line Chatroom",
+    "description": "Developed a versatile chat room application with both server and client components, supporting UDP and TCP protocols. The application runs through the command line, offering users flexibility in choosing their preferred communication protocol.",
+    "technologies": [
+      "C++",
+      "Make"
+    ],
+    "is_public": true,
+    "github_link": "https://github.com/kevin-pietruszka/ChatRoom"
+  },
+  {
+    "name": "Chess Tactic Classification",
+    "description": "Trained Convolutional Neural Network and Decision Tree models to classify strategies in sequences of chess moves recommended by Chess Engines, utilizing the chess puzzle database from Lichess.",
+    "technologies": [
+      "Python",
+      "TensorFlow",
+      "scikit-learn",
+      "pandas",
+      "NumPy"
+    ],
+    "is_public": true,
+    "github_link": "https://github.com/kevin-pietruszka/ChessTacticClassification"
+  },
+  {
+    "name": "Climate Change Prediction and Visualization",
+    "description": "Developed predictive models to forecast future surface temperatures across various global regions. The project includes an interactive globe visualization that displays the predicted temperature data, enhancing understanding of climate trends.",
+    "technologies": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Python",
+      "D3.js",
+      "scikit-learn",
+      "pandas",
+      "NumPy"
+    ],
+    "is_public": true,
+    "github_link": "https://github.com/kevin-pietruszka/climate-change-prediction"
+  },
+  {
+    "name": "Anime Recommendation System",
+    "description": "Implemented a collaborative filtering system using Singular Value Decomposition (SVD) factorization on an Anime recommendations database. The system generates personalized content suggestions for new users based on existing user preferences and anime ratings.",
+    "technologies": [
+      "Python",
+      "Numpy",
+      "Pandas"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Board Game Data Visualization",
+    "description": "Created a set of interactive visualizations using D3.js to display various properties of a Board Game dataset. The project includes a graph for connecting similarities between games, line charts to show ratings over time, and a choropleth map to illustrate average ratings by region.",
+    "technologies": [
+      "HTML",
+      "JavaScript",
+      "CSS",
+      "D3.js"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Distributed Systems Laboratory",
+    "description": "Designed and implemented various distributed systems strategies for database replication in a simulated environment. These strategies included Primary-Backup, Multi-Paxos, and a system resembling Google Spanner.",
+    "technologies": [
+      "Java",
+      "Lombok"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "FarmGuardians",
+    "description": "Developed an engaging farm simulation game featuring an interactive user interface and simple visuals. The game allows players to manage a virtual farm, perform various farming activities, and interact with different elements within the game environment.",
+    "technologies": [
+      "Java",
+      "JavaFX"
+    ],
+    "is_public": true,
+    "github_link": "https://github.com/kevin-pietruszka/FarmGuardians"
+  },
+  {
+    "name": "FlexBros",
+    "description": "Developed a multi-platform web application to help users build workout routines and monitor progress. The app features a workout calendar to display routines and allows users to log daily performance, making it easier to track fitness goals.",
+    "technologies": [
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "Firebase",
+      "Ionic",
+      "React.js"
+    ],
+    "is_public": true,
+    "github_link": "https://github.com/kevin-pietruszka/FlexBros"
+  },
+  {
+    "name": "GBA Pong Game",
+    "description": "Developed a basic Pong game for the Game Boy Advance (GBA) using an emulator. This project showcases essential game development features for the GBA platform, with a focus on graphics rendering utilizing Direct Memory Access (DMA).",
+    "technologies": [
+      "C"
+    ],
+    "is_public": true,
+    "github_link": "https://github.com/kevin-pietruszka/GBA-Pong"
+  },
+  {
+    "name": "Image Feature Extraction",
+    "description": "Implemented the Harris corner detection algorithm and Scale-Invariant Feature Transform (SIFT) feature extraction technique. The project focuses on matching important features between two different images of the same scene.",
+    "technologies": [
+      "Python",
+      "opencv",
+      "numpy",
+      "matplotlib"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Machine Learning-Based Image Compression",
+    "description": "Implemented and compared various machine learning techniques for image compression, including Gaussian Mixture Modeling, K-means clustering, and Principal Component Analysis (PCA). The project demonstrates the effectiveness of these methods in reducing image file sizes while maintaining visual quality.",
+    "technologies": [
+      "Python",
+      "NumPy",
+      "matplotlib",
+      "scikit-learn"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Image Description for the Visually Impaired",
+    "description": "Developed a novel approach to generate detailed image descriptions for visually impaired individuals. The system combines image captioning models with Large Language Models (LLMs) and Visual Question Answering (VQA) models to produce comprehensive, paragraph-length descriptions of images.",
+    "technologies": [
+      "Python",
+      "Mistral",
+      "LLama",
+      "GPT",
+      "PyTorch",
+      "NumPy",
+      "streamlit"
+    ],
+    "is_public": true,
+    "github_link": "https://github.com/kevin-pietruszka/image-description-for-visually-impaired"
+  },
+  {
+    "name": "3D Model Visualization with Implicit Surfaces",
+    "description": "Visualized 3D models using implicit surface drawing techniques, including blobby shapes of standard primitives. The project also incorporates twist, taper, and bend deformation techniques to enhance the appearance of various morphed objects.",
+    "technologies": [
+      "Java",
+      "Processing"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Computer Architecture Simulation",
+    "description": "Utilized a circuit simulator to construct a simple computer architecture built entirely out of logic gates. The simulation includes essential components such as a bus, RAM, a register file, and an arithmetic logic unit (ALU).",
+    "technologies": [
+      "CircuitSim"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Machine Learning for Network Traffic",
+    "description": "Trained a PAYL (Payload Anomaly-based Intrusion Detection) model on example network traffic data to identify normal and attack payloads. The project employed a polymorphic blending technique to demonstrate the limitations of such methods in detecting network anomalies.",
+    "technologies": [
+      "Python",
+      "Wireshark"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Malware Behavior Analysis",
+    "description": "Conducted malware analysis using sample malware in a virtual machine environment. The project involved network behavioral analysis to gain insights into the control flow graph and perform symbolic execution.",
+    "technologies": [
+      "Python",
+      "WireShark",
+      "Cuckoo"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Virtual Memory Page Simulator",
+    "description": "Simulated virtual memory with a complete paging implementation, including page eviction and replacement policies. This project utilizes the principles of virtual memory management to optimize memory usage in operating systems.",
+    "technologies": [
+      "C"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "3D Mesh Manipulation with Subdivision",
+    "description": "Developed a program to manipulate polygon meshes using Loop and Butterfly subdivision techniques. The project includes features for adding surface noise, performing mesh smoothing, and toggling between flat and smooth shading.",
+    "technologies": [
+      "Java",
+      "Processing"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Mini Internet Simulation",
+    "description": "Participated in a simulation of internet connectivity where each member controlled an Autonomous System (AS) that had to interconnect using OSPF and iBGP protocols. The project included connecting to external ASes through BGP configuration, providing insights into real-world networking challenges.",
+    "technologies": [
+      "Python",
+      "p4"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Network Monitoring and Attack Analysis",
+    "description": "Analyzed four attack scenarios on an AWS network topology, focusing on DDoS, brute force, web attacks, and botnets. By utilizing provided sample traffic, patterns were identified to create rules aimed at preventing each type of attack.",
+    "technologies": [
+      "Python",
+      "Snort",
+      "Wireshark"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Diabetes Risk Prediction",
+    "description": "Trained a neural network to predict the risk of diabetes in individuals. The project involved implementing hidden layers and gradient descent algorithms to analyze sample data and determine potential diabetes risk.",
+    "technologies": [
+      "Python",
+      "NumPy",
+      "matplotlib",
+      "scikit-learn"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Pacman AI Agent Implementation",
+    "description": "Built various AI methods to play Pacman, including Breadth-First Search (BFS), Depth-First Search (DFS), Uniform Cost Search (UCS), A* search, Q-Learning, and Markov Decision Processes. This project demonstrates the application of different search and reinforcement learning algorithms in a game environment.",
+    "technologies": [
+      "Python"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Penetration Testing Simulation",
+    "description": "Conducted a penetration test on a simulated Common Gateway Interface (CGI) program by identifying open ports and exploiting vulnerabilities using a reverse shell to gain escalated privileges.",
+    "technologies": [
+      "bash",
+      "nmap",
+      "netcat",
+      "Metasploit",
+      "John the Ripper"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Process Scheduler",
+    "description": "Simulated an operating system scheduling multi-threaded processes with options to choose from various algorithms: First Come First Serve, Shortest Job First, Round-Robin, and Shortest Remaining Time First.",
+    "technologies": [
+      "C"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Projection Matrix Estimation with RANSAC",
+    "description": "Implemented Project Matrix reconstruction given multiple images from a scene using RANSAC (Random Sample Consensus) algorithm. The calculated matrix was then used to determine the epipolar lines between the images to match feature locations.",
+    "technologies": [
+      "Python",
+      "opencv",
+      "numpy",
+      "matplotlib"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Mushroom Species Classification",
+    "description": "Analyzed a dataset containing over a hundred mushroom species and trained a random forest model to perform classification on unknown mushroom samples.",
+    "technologies": [
+      "Python",
+      "sklearn",
+      "numpy",
+      "pandas"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Mushroom Species Classification",
+    "description": "Analyzed a dataset containing over a hundred mushroom species and trained a random forest model to perform classification on unknown mushroom samples.",
+    "technologies": [
+      "Python",
+      "sklearn",
+      "numpy",
+      "pandas"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Real-Time Transport Protocol Implementation",
+    "description": "Developed code to implement a Real-Time Transport Protocol using threads with a packet queue system. The project features a client that receives messages from a server using a packetization algorithm.",
+    "technologies": [
+      "C"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Scene Recognition with CNNs and Bag-of-Words",
+    "description": "Implemented a system to classify scenes of various rooms or environments using two approaches: a Bag-of-Words model with SIFT (Scale-Invariant Feature Transform) feature extraction and a Convolutional Neural Networks (CNNs).",
+    "technologies": [
+      "Python",
+      "CV2",
+      "numpy",
+      "matplotlib",
+      "pytorch"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Simulated L2 Cache with DRAM",
+    "description": "Simulated a multi-core processor utilizing an L2 cache with configurable eviction and write-back policies. The write-back operations are handled by a DRAM simulator that emulates pre-charging and row buffer behavior.",
+    "technologies": [
+      "C++"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Simulated Out-of-Order processor with cache and error flushing",
+    "description": "Simulated a 7-stage processor featuring a Reorder Buffer and a Register Alias Table for out-of-order processing. The simulation also includes interaction with a basic L1 cache.",
+    "technologies": [
+      "C++"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Simulated Super Scalar with Branch Prediction",
+    "description": "Tested the efficiency of an N-wide superscalar processor with 5 basic stages while effectively managing dependencies with pipeline bubbles and flushes. The simulation incorporated branch predictions utilizing gshare, gselect, or tournament predictor algorithms.",
+    "technologies": [
+      "C++"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "NYC Taxi Data Analysis",
+    "description": "Analyzed NYC taxi trip data to extract valuable insights, including identifying least cost-effective trips, most popular routes, and pricing differences between taxis. Deployed the code on various cloud platforms (AWS, GCP, and Databricks) to leverage Apache Spark running in Kubernetes clusters, ensuring an efficient data analysis pipeline.",
+    "technologies": [
+      "Python",
+      "PySpark",
+      "Docker",
+      "GCP",
+      "Databricks",
+      "AWS"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "SQL Database for Travel Reservations Service",
+    "description": "Developed an Entity-Relationship Diagram (ERD) and SQL tables to manage travel reservations data. The project also included the creation of stored procedures to enhance the efficiency of data operations.",
+    "technologies": [
+      "SQL",
+      "MySql"
+    ],
+    "is_public": false,
+    "github_link": ""
+  },
+  {
+    "name": "Cross-Site Scripting Attack Simulation",
+    "description": "Conducted attacks on a simulated web application to demonstrate both reflective and stored cross-site scripting (XSS) vulnerabilities. The reflective XSS attack was designed to persist across multiple sessions, while the stored XSS attack targeted potential site administrators.",
+    "technologies": [
+      "Javascript"
+    ],
+    "is_public": false,
+    "github_link": ""
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "begin": "05/2023",
+    "end": "10/2023",
+    "title": "Cloud Engineer Intern",
+    "company": "Battelle",
+    "company_link": "https://www.battelle.org/",
+    "description": "I worked in Battelle's Cloud Engineering team to develop infrastructure to support cloud work environments in Azure that uphold CMMC level 2 security requirements. I wrote Terraform code to deploy a Microsoft Teams Remote App to replace the company's Webex for Government contract. I also worked on their internal tools written in Bash to automate deployments by writing a Terraform module for pip and apt proxies deployed with Docker within environments and developed a CI/CD pipeline for custom SKU images for remote desktops utilizing Chocolatey.",
+    "tags": ["Terraform", "Bash", "Azure", "GitHub", "Docker", "CI/CD"]
+  },
+  {
+    "begin": "05/2022",
+    "end": "07/2022",
+    "title": "Software Engineer Intern",
+    "company": "GTRI",
+    "company_link": "https://gtri.gatech.edu/",
+    "description": "I worked within a team of researchers trying to improve visualization techniques for neural network training while working with Python using TensorFlow and PyTorch. Then I was a part of the AGILE development process in order to create a web application using React to display these visualizations in components, utilizing a Flask backend powered with a MongoDB database.",
+    "tags": ["JavaScript", "Python", "React", "Flask", "MongoDB", "Neural Network", "Data Visualization"]
+  }
+]
+
