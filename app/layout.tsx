@@ -5,7 +5,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
-  variable: "--font-primary",
+  variable: "--font-jetbrains-mono",
 });
 
 let author = "Kevin Pietruszka";
@@ -39,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${jetbrainsMono.variable} antialiased bg-background text-foreground`}
+        className={`${jetbrainsMono.variable} font-primary antialiased bg-background text-foreground`}
       >
         <ThemeProvider
           defaultTheme="system"

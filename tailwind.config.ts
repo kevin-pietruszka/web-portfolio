@@ -37,7 +37,7 @@ const config: Config = {
       DEFAULT: "var(--radius)",
     },
     fontFamily: {
-      primary: "var(--font-primary)",
+      primary: "var(--font-jetbrains-mono)",
     },
   },
 };
