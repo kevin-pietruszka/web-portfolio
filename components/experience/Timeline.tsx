@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Timeline() {
   return (
     <div>
-      {experiences.map((experience, index, array) => {
+      {experiences.map((experience, index) => {
         return (
           <div
             className="grid grid-cols-1 xl:grid-cols-4 mb-8 rounded hover:bg-secondary hover:text-secondary-foreground"
@@ -27,7 +27,7 @@ export default function Timeline() {
               </Link>
               <p className="text-xs leading-normal">{experience.description}</p>
               <div className="flex flex-row shrink-0 grow-0 flex-wrap gap-2 mt-2">
-                {experience.tags.map((tag, index, array) => {
+                {experience.tags.map((tag, index) => {
                   return <Tag key={index} skill={tag} />;
                 })}
               </div>
