@@ -20,3 +20,7 @@ export type Project = {
   is_public: boolean;
   github_link: string;
 };
+
+export type FeaturedProject = Project & {
+  img: string;
+};
