@@ -1,7 +1,6 @@
 import { FeaturedProject } from "@/lib/types";
 import Image from "next/image";
 import Link from "next/link";
-import Tag from "../util/Tag";
 import { FaGithub } from "react-icons/fa6";
 
 interface ProjectCardProps {
