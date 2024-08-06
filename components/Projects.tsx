@@ -7,10 +7,10 @@ export default function Projects() {
     <section id="projects" className="container mx-auto h-full p-8">
       <SectionBreak header="Projects"></SectionBreak>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
-          {featured_projects.map((project, index) => (
-            <FeaturedProjectCard key={index} project={project} />
-          ))}
-        </div>
+        {featured_projects.map((project, index) => (
+          <FeaturedProjectCard key={index} project={project} />
+        ))}
+      </div>
     </section>
   );
 }
