@@ -1,7 +1,7 @@
 [
   {
-    "name": "Advising Pathways Web Application",
-    "description": "Developed a web application for the College of Computing advising department at Georgia Tech. The application helps students explore curriculum requirements and options through surveys, gamified walkthroughs, and detailed advising information.",
+    "name": "Advising Pathways",
+    "description": "A web application made for Computer Science Students at Georgia Tech to help explore curriculum requirements and options through surveys, gamified walkthroughs, and detailed advising information.",
     "technologies": [
       "MySQL",
       "React.js",
@@ -14,7 +14,7 @@
   },
   {
     "name": "Chess Tactic Classification",
-    "description": "Trained Convolutional Neural Network and Decision Tree models to classify strategies in sequences of chess moves recommended by Chess Engines, utilizing the chess puzzle database from Lichess.",
+    "description": "Convolutional Neural Network and Decision Tree models to classify strategies in sequences of chess moves recommended by Chess Engines.",
     "technologies": [
       "TensorFlow",
       "scikit-learn",
@@ -27,7 +27,7 @@
   },
   {
     "name": "FlexBros",
-    "description": "Developed a multi-platform web application to help users build workout routines and monitor progress. The app features a workout calendar to display routines and allows users to log daily performance, making it easier to track fitness goals.",
+    "description": "A web application to help users build workout routines and monitor progress by utilizing a workout calendar to display routines and log daily performance.",
     "technologies": [
       "TypeScript",
       "Firebase",
@@ -40,7 +40,7 @@
   },
   {
     "name": "Image Description for the Visually Impaired",
-    "description": "Developed a novel approach to generate detailed image descriptions for visually impaired individuals. The system combines image captioning models with Large Language Models (LLMs) and Visual Question Answering (VQA) models to produce comprehensive, paragraph-length descriptions of images.",
+    "description": "A simple UI application that utilizes LLMs and VQA models approach to generate detailed image descriptions for visually impaired individuals.",
     "technologies": [
       "Python",
       "PyTorch",
