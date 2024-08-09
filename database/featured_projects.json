@@ -40,7 +40,7 @@
   },
   {
     "name": "Image Description for the Visually Impaired",
-    "description": "A simple UI application that utilizes LLMs and VQA models approach to generate detailed image descriptions for visually impaired individuals.",
+    "description": "A simple UI application that utilizes LLMs and VQA models to generate detailed image descriptions for visually impaired individuals.",
     "technologies": [
       "Python",
       "PyTorch",
