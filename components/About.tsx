@@ -4,7 +4,7 @@ import ProfilePic from "@/components/about/ProfilePic";
 
 export default function About() {
   return (
-    <section id="about" className="container mx-auto px-8 py-8 lg:py-48">
+    <section id="about" className="container mx-auto px-8 py-8 lg:py-56">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div className="order-2 lg:order-1">
           <Description 
