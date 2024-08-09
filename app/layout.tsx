@@ -37,7 +37,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className="scroll-pt-24" suppressHydrationWarning>
       <body
         className={`${jetbrainsMono.variable} font-primary antialiased bg-base text-text`}
       >
