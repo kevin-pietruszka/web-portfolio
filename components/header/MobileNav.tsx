@@ -2,7 +2,7 @@
 import { links } from "@/lib/constants";
 import Link from "next/link";
 import { useState } from "react";
-import { FaBars, FaSun, FaX } from "react-icons/fa6";
+import { FaBars, FaX } from "react-icons/fa6";
 import ThemeButton from "@/components/ThemeButton";
 
 export default function MobileNav() {
@@ -19,8 +19,8 @@ export default function MobileNav() {
       </button>
 
       {isOpen && (
-        <div className="fixed inset-0 bg-muted bg-opacity-80 z-50">
-          <div className="fixed right-0 top-0 h-full w-1/2 bg-popover">
+        <div className="fixed inset-0 bg-crust/50 z-100">
+          <div className="fixed right-0 top-0 h-full w-1/2 bg-overlay0">
             <div className="py-9 px-8 flex justify-between shadow-md">
               <ThemeButton />
               <button onClick={toggleNav}>
@@ -28,7 +28,7 @@ export default function MobileNav() {
               </button>
             </div>
             <nav className="pt-9 flex flex-col gap-8 items-center justify-center">
-              {links.map((link, index, array) => {
+              {links.map((link, index) => {
                 return (
                   <Link onClick={toggleNav} key={index} href={link.href}>
                     {link.name}
