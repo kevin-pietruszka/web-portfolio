@@ -2,10 +2,10 @@ import { education } from "@/lib/constants";
 
 export default function Timeline() {
   return (
-    <div>
+    <div className="xl:mt-8">
       {education.map((edu, index) => {
         return (
-          <div key={index} className="max-w-4xl grid grid-cols-1 xl:grid-cols-4">
+          <div key={index} className="max-w-4xl grid grid-cols-1 xl:grid-cols-4 mb-8">
             <div> 
               <h1 className="inline-flex italic leading-snug">
                 {edu.startDate + " - " + edu.endDate}

@@ -4,11 +4,11 @@ import Link from "next/link";
 
 export default function Timeline() {
   return (
-    <div>
+    <div className="xl:mt-8">
       {experiences.map((experience, index) => {
         return (
           <div
-            className="max-w-4xl grid grid-cols-1 xl:grid-cols-4"
+            className="max-w-4xl grid grid-cols-1 xl:grid-cols-4 mb-8"
             key={index}
           >
             <div>
