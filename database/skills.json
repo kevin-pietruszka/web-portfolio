@@ -8,31 +8,77 @@
   {
     "category": "Frontend Development",
     "list": [
-      "React", "Yew", "Ionic", "CSS", "HTML", "Tailwind", "Bulma", "Next.js"
+      "React",
+      "Yew",
+      "Ionic",
+      "CSS",
+      "HTML",
+      "Tailwind",
+      "Bulma",
+      "Next.js"
     ]
   },
   {
     "category": "Backend Development",
-    "list": ["Node.js", "Express.js", "Flask", "Apache", "Nginx"]
+    "list": [
+      "Node.js",
+      "Express.js",
+      "Flask",
+      "Apache",
+      "Nginx"
+    ]
   },
   {
     "category": "AI/ML",
-    "list": ["TensorFlow", "PyTorhc", "pandas", "numpy", "seaborn", "opencv", "scikit-learn"]
+    "list": [
+      "TensorFlow",
+      "PyTorhc",
+      "pandas",
+      "numpy",
+      "seaborn",
+      "opencv",
+      "scikit-learn"
+    ]
   },
   {
     "category": "Databases",
-    "list": ["MongoDB", "MySQL", "PostgreSQL", "SQLite"]
+    "list": [
+      "MongoDB",
+      "MySQL",
+      "PostgreSQL",
+      "SQLite"
+    ]
   },
   {
     "category": "Data Visualization",
-    "list": ["d3.js", "chart.js", "matplotlib"]
+    "list": [
+      "d3.js",
+      "chart.js",
+      "matplotlib"
+    ]
   },
   {
     "category": "Cloud",
-    "list": ["AWS", "Docker", "GCP", "Kubernetes", "Bash", "Azure", "Firebase", "Databricks", "Apache Spark"]
+    "list": [
+      "AWS",
+      "Docker",
+      "GCP",
+      "Kubernetes",
+      "Bash",
+      "Azure",
+      "Firebase",
+      "Databricks",
+      "Apache Spark"
+    ]
   },
   {
     "category": "Other",
-    "list": ["Git", "Github", "Postman", "Figma", "Linux"]
+    "list": [
+      "Git",
+      "Github",
+      "Postman",
+      "Figma",
+      "Linux"
+    ]
   }
 ]
