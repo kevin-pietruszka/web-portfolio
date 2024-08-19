@@ -1,3 +1,4 @@
+import { logo } from "@/lib/constants";
 import Link from "next/link";
 
 export default function Logo() {
@@ -5,7 +6,7 @@ export default function Logo() {
     <Link href="/">
       <h1 className="text-2xl font-bold">
         <span className="text-pink">{"@"}</span>
-        {"Kevin"}
+        {logo}
       </h1>
     </Link>
   );

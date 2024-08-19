@@ -1,3 +1,4 @@
+import { main_image } from "@/lib/constants";
 import Image from "next/image";
 
 export default function ProfilePic({
@@ -11,7 +12,7 @@ export default function ProfilePic({
   return (
     <div className={containerStyle}>
       <Image
-        src={"/me.png"}
+        src={main_image}
         width={300}
         height={300}
         alt="profile picture"

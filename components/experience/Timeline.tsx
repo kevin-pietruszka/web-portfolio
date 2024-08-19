@@ -8,11 +8,11 @@ export default function Timeline() {
       {experiences.map((experience, index) => {
         return (
           <div
-            className="grid grid-cols-1 xl:grid-cols-4 mb-8"
+            className="max-w-4xl grid grid-cols-1 xl:grid-cols-4"
             key={index}
           >
             <div>
-              <h1 className="inline-flex text-xs leading-snug">
+              <h1 className="inline-flex italic leading-snug">
                 {experience.begin + " - " + experience.end}
               </h1>
             </div>
@@ -25,7 +25,7 @@ export default function Timeline() {
               >
                 {experience.title + " • " + experience.company}
               </Link>
-              <p className="text-xs leading-normal">{experience.description}</p>
+              <p className="text-sm leading-normal">{experience.description}</p>
               <div className="flex flex-row shrink-0 grow-0 flex-wrap gap-2 my-2">
                 {experience.tags.map((tag, index) => {
                   return <Tag key={index} word={tag} />;

@@ -2,6 +2,7 @@
 import { FaDownload, FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa6";
 import Link from "next/link";
 import { useState } from "react";
+import { email, github, linkedin } from "@/lib/constants";
 
 export default function Socials({
   containerStyle,
@@ -14,7 +15,7 @@ export default function Socials({
 
   const handleEmailClick = async () => {
     try {
-      await navigator.clipboard.writeText("kevinpiet13@gmail.com");
+      await navigator.clipboard.writeText(email);
       setEmailCopied(true);
       setTimeout(() => setEmailCopied(false), 1000);
     } catch (err) {
@@ -26,7 +27,7 @@ export default function Socials({
     <div className={containerStyle}>
       <Link
         target="_blank"
-        href="https://github.com/kevin-pietruszka"
+        href={github}
         className={socialStyles}
       >
         <span>{"Github"}</span>
@@ -34,7 +35,7 @@ export default function Socials({
       </Link>
       <Link
         target="_blank"
-        href={"https://www.linkedin.com/in/kevin-pietruszka/"}
+        href={linkedin}
         className={socialStyles}
       >
         <span> {"LinkedIn"} </span>

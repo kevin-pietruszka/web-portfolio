@@ -1,10 +1,10 @@
-import Socials from "@/components/about/Socials";
-import Description from "@/components/about/Description";
-import ProfilePic from "@/components/about/ProfilePic";
+import Socials from "@/components/home/Socials";
+import Description from "@/components/home/Description";
+import ProfilePic from "@/components/home/ProfilePic";
 
-export default function About() {
+export default function Home() {
   return (
-    <section id="about" className="container mx-auto px-8 py-8 lg:py-56">
+    <section className="container mx-auto px-8 py-8 lg:py-56">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div className="order-2 lg:order-1">
           <Description 

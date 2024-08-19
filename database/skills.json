@@ -2,7 +2,13 @@
   {
     "category": "Programming Languages",
     "list": [
-      "C, C++, Java, JavaScript, TypeScript, Python, Rust"
+      "C",
+      "C++",
+      "Java",
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "Rust"
     ]
   },
   {

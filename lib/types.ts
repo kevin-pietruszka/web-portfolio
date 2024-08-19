@@ -24,3 +24,16 @@ export type Project = {
 export type FeaturedProject = Project & {
   img: string;
 };
+
+export type Education = {
+  university: string;
+  degree: string;
+  startDate: string;
+  endDate: string;
+  gpa: number;
+  bullets: string[];
+}
+export type SkillCategory = {
+  category: string;
+  list: string[];
+}
