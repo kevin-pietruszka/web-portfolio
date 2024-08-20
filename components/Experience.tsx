@@ -1,14 +1,11 @@
 import Timeline from "@/components/experience/Timeline";
-import Background from "@/components/experience/Background";
 import SectionBreak from "@/components/util/SectionBreak";
 
 export default function Experience() {
   return (
-    <section id="experience" className="container mx-auto px-8 pb-8">
+    <section id="experience">
       <SectionBreak header="Experience" />
-      <div className="flex lg:justify-center">
-        <Timeline /> 
-      </div>
+      <Timeline /> 
     </section>
   );
 }

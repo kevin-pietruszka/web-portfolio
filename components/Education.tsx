@@ -3,11 +3,9 @@ import SectionBreak from "@/components/util/SectionBreak";
 
 export default function Education() {
   return (
-    <section id="education" className="container mx-auto px-8 pb-8">
+    <section id="education">
       <SectionBreak header="Education" />
-      <div className="flex lg:justify-center">
-        <Timeline /> 
-      </div>
+      <Timeline /> 
     </section>
   );
 }

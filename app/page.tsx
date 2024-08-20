@@ -4,14 +4,14 @@ import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Education from "@/components/Education";
+import About from "@/components/About";
 
 export default function Site() {
   return (
     <main>
       <Header />
       <Home />
-      <Education />
-      <Experience />
+      <About />
       <Projects />
       <Skills />
     </main>

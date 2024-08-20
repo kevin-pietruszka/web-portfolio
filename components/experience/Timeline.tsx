@@ -4,37 +4,27 @@ import Link from "next/link";
 
 export default function Timeline() {
   return (
-    <div className="xl:mt-8">
-      {experiences.map((experience, index) => {
+    <>
+      {experiences.map((experience, index, array) => {
         return (
-          <div
-            className="max-w-4xl grid grid-cols-1 xl:grid-cols-4 mb-8"
-            key={index}
-          >
-            <div>
-              <h1 className="inline-flex italic leading-snug">
-                {experience.begin + " - " + experience.end}
-              </h1>
-            </div>
-
-            <div className="xl:col-span-3">
+            <div key={index} className={index !== array.length - 1 ? "mb-8" : "0"}>
               <Link
                 href={experience.company_link}
                 target="_blank"
-                className="inline-flex text-lg font-bold leading-tight hover:text-lavender"
+                className="text-lg font-bold hover:text-lavender"
               >
                 {experience.title + " • " + experience.company}
               </Link>
-              <p className="text-sm leading-normal">{experience.description}</p>
+              <h2 className="italic mb-2"> {experience.begin + " - " + experience.end} </h2>
+              <p className="text-sm mb-2"> {experience.description} </p>
               <div className="flex flex-row shrink-0 grow-0 flex-wrap gap-2 my-2">
                 {experience.tags.map((tag, index) => {
                   return <Tag key={index} word={tag} />;
                 })}
               </div>
-            </div>
           </div>
         );
       })}
-    </div>
+    </>
   );
 }

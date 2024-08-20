@@ -1,28 +1,16 @@
 import { description, name, title } from "@/lib/constants";
 
-export default function Description({
-  containerStyle,
-  greetingStyle,
-  nameStyle,
-  titleStyle,
-  descriptionStyle,
-}: {
-  containerStyle: string,
-  greetingStyle: string,
-  nameStyle: string,
-  titleStyle: string,
-  descriptionStyle: string,
-}) {
+export default function Description() {
   return (
-    <div className={containerStyle}>
-      <h1 className={greetingStyle}>
+    <div className="text-center lg:text-left">
+      <h1 className="text-4xl lg:text-5xl xl:text-6xl">
         {"Hello, I'm"}
-        <span className={nameStyle}> {name} </span>
+        <span className="block text-pink"> {name} </span>
       </h1>
-      <h2 className={titleStyle}>
+      <h2 className="text-xl mb-8">
         {title}
       </h2>
-      <p className={descriptionStyle}>
+      <p className="text-lg mb-8">
         {description}
       </p>
     </div>
