@@ -1,7 +1,7 @@
 [
   {
     "university": "Georgia Institute of Technology",
-    "degree": "Master of Science in Computer Science",
+    "degree": "MS in Computer Science",
     "startDate": "01/2023",
     "endDate": "12/2023",
     "gpa": 4.0,
@@ -9,7 +9,7 @@
   },
   {
     "university": "Georgia Institute of Technology",
-    "degree": "Bachelor of Science in Computer Science",
+    "degree": "BS in Computer Science",
     "startDate": "08/2019",
     "endDate": "12/2022",
     "gpa": 3.88,

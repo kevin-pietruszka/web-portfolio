@@ -14,9 +14,9 @@ export default function Projects() {
         ))}
       </div>
       <Link href={"/projects"} className="relative group hover:text-lavender transition-colors duration-200">
-        <span className="inline-flex items-center gap-2"> 
-          <p> {"View All Projects"} </p> 
-          <FaArrowRight /> 
+        <span className="inline-flex items-center gap-2">
+          <p> {"View All Projects"} </p>
+          <FaArrowRight />
         </span>
         <span className="absolute bottom-0 left-0 w-full h-0.5 bg-lavender scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
       </Link>

@@ -4,7 +4,7 @@ import ThemeButton from "@/components/ThemeButton";
 
 export default function DesktopNav() {
   return (
-    <div className="hidden md:flex gap-8 items-center justify-center">
+    <div className="hidden lg:flex lg:gap-8 lg:items-center lg:justify-center">
       <nav className="flex gap-8 items-center justify-center">
         {links.map((link, index) => {
           return (
